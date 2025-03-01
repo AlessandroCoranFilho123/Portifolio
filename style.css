@@ -35,14 +35,27 @@ section {
   margin: 0 auto;
 }
 
-.projects-grid {
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+  padding: 3px;
+}
+
+.projeto-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
 
-.project-card {
+.projeto-card {
   background: white;
   padding: 1.5rem;
   border-radius: 8px;
