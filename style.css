@@ -84,21 +84,6 @@ h3 a {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.hab-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.hab-item {
-  background: #3498db;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
-
 .contato-form {
   max-width: 600px;
   margin: 0 auto;
