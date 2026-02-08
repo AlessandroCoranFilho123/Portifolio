@@ -15,14 +15,6 @@ Sou um entusiasta da tecnologia que iniciou os estudos em 2021 com o Front-end (
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-### 📈 Estatísticas do GitHub
-<p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AlessandroCoranFilho123&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlessandroCoranFilho123&layout=compact&langs_count=7&theme=tokyonight" />
-</p>
-
----
-
 ### 📫 Contatos:
 - **E-mail:** [alessandrocoran90@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=alessandrocoran90@gmail.com)
 - **Portfólio:** [Visite meu site](https://seu-link-do-portfolio.vercel.app)
