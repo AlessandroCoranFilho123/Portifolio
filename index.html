@@ -51,9 +51,15 @@
 
   <section id="projetos">
     <h2 class="section-title">Projetos</h2>
-    <div class="projeto-grid">
 
-      <div class="projeto-card">
+    <div class="filtros-container">
+      <button class="filter-btn active" data-filter="todos">Todos</button>
+      <button class="filter-btn" data-filter="frontend">Front-end</button>
+      <button class="filter-btn" data-filter="backend">Back-end</button>
+    </div>
+
+    <div class="projeto-grid" id="projeto-grid">
+      <div class="projeto-card" data-category="frontend">
         <div class="card-content">
           <h3>Audi Motors</h3>
           <p>Site de uma concessionária fictícia. Site responsivo, focado em UX intuitiva e experiência do usuário.</p>
@@ -68,15 +74,15 @@
           GitHub →</a>
       </div>
 
-      <div class="projeto-card">
+      <div class="projeto-card" data-category="frontend">
         <div class="card-content">
           <h3>Calculadora</h3>
           <p>Site de calculadora funcional com lógica matemática, feedback visual imediato e com alternância de temas
             (Dark/Light).</p>
           <ul class="tags">
-            <li>Javascript</li>
-            <li>Lógica</li>
-            <li>UI</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
           </ul>
         </div>
         <a target="_blank" href="https://calculadora-ten-gules.vercel.app/" class="card-link">Visitar Site →</a>
@@ -84,14 +90,13 @@
           GitHub →</a>
       </div>
 
-      <div class="projeto-card">
+      <div class="projeto-card" data-category="frontend">
         <div class="card-content">
           <h3>Adventure Kitty</h3>
           <p>Site de um projeto pessoal de jogo de aventura em plataforma que estou desenvolvendo.</p>
           <ul class="tags">
-            <li>Responsivo</li>
-            <li>Game Dev</li>
-            <li>UX</li>
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
         </div>
         <a target="_blank" href="https://adventure-kitty.vercel.app/" class="card-link">Visitar Site →</a>
@@ -99,18 +104,67 @@
           GitHub →</a>
       </div>
 
-      <div class="projeto-card">
+      <div class="projeto-card" data-category="frontend">
         <div class="card-content">
           <h3>Página de login</h3>
           <p>Site de login com interface de autenticação moderna, responsiva e intuitiva.</p>
           <ul class="tags">
-            <li>Frontend</li>
-            <li>Design</li>
-            <li>UI</li>
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
         </div>
         <a target="_blank" href="https://login-lovat-iota.vercel.app/" class="card-link">Visitar Site →</a>
         <a target="_blank" href="https://github.com/AlessandroCoranFilho123/Login" class="card-link">Visitar GitHub
+          →</a>
+      </div>
+
+      <div class="projeto-card" data-category="frontend">
+        <div class="card-content">
+          <h3>Clima</h3>
+          <p>Site bem simples de clima que mostra a temperatura, horário, localização entre outras coisas.</p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <a target="_blank" href="https://clima-blue-two.vercel.app/" class="card-link">Visitar Site →</a>
+        <a target="_blank" href="https://github.com/AlessandroCoranFilho123/Clima" class="card-link">Visitar GitHub
+          →</a>
+      </div>
+
+      <div class="projeto-card" data-category="backend">
+        <div class="card-content">
+          <h3>Bloco de notas</h3>
+          <p>Aplicativo simples de um bloco de notas feito em Java + JavaFX + CSS, apenas para fins de estudo.</p>
+          <ul class="tags">
+            <li>JAVA</li>
+            <li>JAVAFX</li>
+            <li>CSS</li>
+            <li>FXML</li>
+          </ul>
+        </div>
+        <a target="_blank" href="https://github.com/AlessandroCoranFilho123/BlocoDeNotas" class="card-link">Visitar
+          GitHub
+          →</a>
+      </div>
+
+      <div class="projeto-card" data-category="backend">
+        <div class="card-content">
+          <h3>Smart Finance</h3>
+          <p>Aplicativo que criei como projeto pessoal para desenvolver minhas habilidades em Java, e também me ajudar a
+            economizar dinheiro</p>
+          <ul class="tags">
+            <li>JAVA</li>
+            <li>JAVAFX</li>
+            <li>CSS</li>
+            <li>SQLITE</li>
+            <li>MAVEN</li>
+            <li>JLINK</li>
+            <li>JPACKAGE</li>
+          </ul>
+        </div>
+        <a target="_blank" href="https://github.com/AlessandroCoranFilho123/Projeto_Financas" class="card-link">Visitar
+          GitHub
           →</a>
       </div>
     </div>
@@ -138,7 +192,7 @@
     <br><br>
     <p class="copyright">&copy; 2026 Alessandro Coran Filho</p>
   </section>
-
+  <script src="/javascript/script.js"></script>
 </body>
 
 </html>
