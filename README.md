@@ -9,7 +9,7 @@ Resolvi criar um site pessoal/portfólio para agrupar meus projetos e facilitar 
 Assim como em todos os meus projetos front-end, você pode acessar o site hospedado na Vercel pelo link abaixo, ou pelo link que fica ao lado dos arquivos:
 
 ```bash
- https://portifolio-ruddy-omega.vercel.app/
+https://portifolio-ruddy-omega.vercel.app
 ```
 
 ---
